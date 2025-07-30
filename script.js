@@ -76,7 +76,7 @@ async function updateWeatherInfo(city) {
         weather: [{ id, main}],
         wind: {speed}  
     } = weatherData;
-    console.log(id);
+    // console.log(id);
     countryTxt.textContent = country;
     tempTxt.textContent = Math.round(temp) +' °C';
     conditionTxt.textContent = main;

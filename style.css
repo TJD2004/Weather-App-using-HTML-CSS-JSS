@@ -125,6 +125,7 @@ body::before {
     width: 50px;
 }
 
+ /* forecast Container   */
 .forecast-items-container {
     display: flex;
     gap: 15px;
