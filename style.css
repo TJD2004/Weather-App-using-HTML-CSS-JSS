@@ -234,8 +234,12 @@ body::before {
     text-align: center;
     padding: 15px 10px;
     font-size: 0.9rem;
+    font-weight: 300;
+    margin: 10px;
     color: #e0f7ff;
     z-index: 1;
+    border-bottom: 1px solid rgba(233, 230, 230, 0.205);
+    border-top: 1px solid rgba(233, 230, 230, 0.205);
 
 }
 
